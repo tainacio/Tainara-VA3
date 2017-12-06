@@ -39,7 +39,7 @@ public class Main {
 				
 				if(id <= gd.buscaUltimoId()){
 					try{
-						Musica m = new Musica(0,
+						Musica music = new Musica(0,
 							gui.recebeTexto("Entre com o nome da música:"),
 							gui.recebeTexto("Entre com o nome do artista:"),
 							gui.recebeTexto("Entre com o nome do álbum:"), 
