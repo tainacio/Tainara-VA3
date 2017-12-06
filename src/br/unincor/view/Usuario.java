@@ -2,7 +2,6 @@ package br.unincor.view;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import javax.swing.JOptionPane;
 
 public class Usuario {

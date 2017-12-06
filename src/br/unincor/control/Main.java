@@ -19,8 +19,8 @@ public class Main {
 			if(opcao == 0){
 				Musica music = new Musica(0,
 					gui.recebeTexto("Entre com o nome da música"),
-					gui.recebeTexto("Entre com a(o) artista"),
-					gui.recebeTexto("Entre com o álbum"), 
+					gui.recebeTexto("Entre com o nome do artista"),
+					gui.recebeTexto("Entre com o nome do álbum"), 
 					gui.recebeLong("Entre com a duração")
 				);
 				
